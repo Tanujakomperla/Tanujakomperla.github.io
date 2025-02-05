@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Komperla Tanuja - Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Komperla Tanuja</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Tanuja</span><br> CSE Student</h1>
+                    <a href="assets/Resume.pdf" class="button" target="_blank">Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/tanuja-komperla-066755251" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Tanujakomperla" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/work3.jpg" alt="Tanuja">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/about.jpg" alt="Tanuja">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Komperla Tanuja</h2>
+                        <p class="about__text">I am a final-year Computer Science Engineering student at GVP College of Engineering for Women. Passionate about web development, ML, and problem-solving. I have worked on projects like Brain Stroke Prediction,Crop Fertilizer and Analysis Prediction and working on Intelligent Visual Synthesis for Realistic Image Generation from Text.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Technical Skills</h2>
+                        <p class="skills__text">Proficient in multiple technologies with experience in web development and machine learning.</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>HTML, CSS</li>
+                            <li>Machine Learning</li>
+                            <li>C++</li>
+                            <li>Java(Basic)</li>
+                        </ul>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/work6.jpg" alt="Skills" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                <div class="work__container bd-grid">
+                    <div class="work__item">
+                        <h3>Brain Stroke Prediction</h3>
+                        <p>Developed a model to predict stroke risk using logistic regression.</p>
+                    </div>
+                    <div class="work__item">
+                        <h3>Crop Fertilizer and Analysis Prediction</h3>
+                        <p>Analyzed crop data to recommend fertilizers using machine learning algorithms.</p>
+                    </div>
+                    <div class="work__item">
+                        <h3>Intelligent Visual Synthesis</h3>
+                        <p>Generated realistic images from text using deep learning models.</p>
+                    </div>
+                </div>
+            </section>
+
+           <!--===== CONTACT =====-->
+           <section class="contact section" id="contact">
+           <h2 class="section-title">Contact</h2>
+           <div class="contact__container bd-grid">
+           <div class="contact__info">
+            <p><strong>📞 Phone:</strong> <a href="tel:+918688724295">8688724295</a></p>
+            <p><strong>📧 Email:</strong> <a href="mailto:tanujakomperla9@gmail.com">tanujakomperla9@gmail.com</a></p>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Komperla Tanuja</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/tanuja-komperla-066755251" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Tanujakomperla" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&copy; 2025 Komperla Tanuja. All rights reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
